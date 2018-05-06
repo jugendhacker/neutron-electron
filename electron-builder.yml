@@ -1,3 +1,4 @@
+existingType: false
 publish:
   provider: github
   releaseType: draft
