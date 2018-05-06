@@ -10,7 +10,7 @@ deploy:
   provider: releases
   api_key:
     secure: bIELsojrTucmJCrURXFGW+lrFPgd5AOoDYM9LxPAjIlQj4CW5Tc8Nu6CJS4cMi6r49k1Y1oAAWh7TnF0P8LC4UTGi8eoHLailknepH+qPqFJgzYSAAP6iSMuaKnLyc7Y6PbuBn1TRlu7rVx9GvXW06UZoBXYJFFKLSnXng+E+quAqr2iiJ+MTV5zw3SrcKlFSoU373mYERJMG8WwoI6OJW+esNbuI+YhzPeDIw0SPI9DNI4b1f5CzOdkBt4p8kKIF6qjwJxPp8q9i0eLpOYQ/zIOYZrHf3AZSessPWX0MvhUoIh+nS2FE+ZvHKc3/1elxz+D3gMH4fd99Sfr7Rqtr75r7Cndvh37RBvW6Gvd5TOvsZFGYr8wfGBlbm/evhKAytMud+0eBEgIJGz/tImw2CoSJ2OreOhVfxgxOTkJLKsRv3WgQcRhZSnpr2bX6Cj5zKI397WPBjYp0MHdAhjIZ429rGxxQTplZ0+YIWXsuDdg9pDR02Ifkt6qVCMi3o26Ql6V5v6fv4hZvQHFwunluk8Cw0YBNeYPKr655MWZq5o8Nj8Aiq2Jnlt0YO/K1M4ebXVLPLpBBoIljyIL0Kx76S4X6E437NyjKI9BjidmzLjijRfCXVMEJTxBouYdLIRj0ObOZcayxopjTtdrCS5ztADGJ7I5MIJJH7a2MRKOtQw=
-  file: dist/*
+  file: dist/*/*
   on:
     repo: jugendhacker/neutron-electron
   draft: true
