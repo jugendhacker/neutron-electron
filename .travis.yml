@@ -3,7 +3,6 @@ node_js:
 - '8'
 os: osx
 install:
-  - brew install npm
   - npm install
 script:
   - npm run dist
@@ -14,5 +13,3 @@ deploy:
   file: ''
   on:
     repo: jugendhacker/neutron-electron
-
-
