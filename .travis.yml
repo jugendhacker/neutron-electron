@@ -6,11 +6,3 @@ install:
   - npm install
 script:
   - npm run dist
-deploy:
-  provider: releases
-  api_key:
-    secure: "ltpLQq1FKem3sYR4F4p0KLMH3fMFklq2sd/3GFs7tT2g2m5q6bHY9Wo0EnysNd8u5jD8m/D6inhh3OcbaBdyVOgZ6xxOjaUbHu+7FeLCrVneHoEraKFTnUZ9WoY/BGd7f0/5KN8kC/rJBqLgNbrX4JVVAPnLX4XlhiDG8C2AmJljoRsZf2kUR+bw9r7H2wkfImbFSDgE8mFy3kN1QR1jEM7JqXqPmJSfiM5mjAyZe5Bmhp+qazN7lBHUs+/CLxKJu5bmCepTFoptY6LYi6Hlr0X45HSXYdndY+/bN/HiXnD25rhN0Ul0Pk19+/VbXH9BEHEGwUMhbT0l7Ug1ZUHmLSjgLMWyoJnq6RN6+rRTFt6i44S82jfTAejb5Lh4xOd7EYd+H59s254XJ+ToAjBtekWSmJUUNhnXvGEFZzoEGepXwcVEqtVkSCgCMbImXKV5GiWG0ljwPN4mC+WXbXApMdTqGIQoVdxL4cu41nEr1YQogq7IMfDI40I0ac9Vv4DtqNEzafZD7b4O+AlUmeDHDOM2PSlb6UPcLXTLLO0lqDmTivlitd5BDxLhC3JH3HXtP4QgXdrFmmjvSiEp5DTy0Oub7bc/x9nlkK5cA46djnB7AatkWnpEnSLJOA+hTTmWuHj4nd7mhdatyz4vmBuJ9LJAjbd4YPnlTf27biv6A4E="
-  file: dist/*/*
-  on:
-    repo: jugendhacker/neutron-electron
-  draft: true
