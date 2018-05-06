@@ -4,10 +4,10 @@ node_js:
 - '0.10'
 os: osx
 install:
-	- brew install npm
-	- npm install
+  - brew install npm
+  - npm install
 script:
-	- npm run dist
+  - npm run dist
 deploy:
   provider: releases
   api_key:
